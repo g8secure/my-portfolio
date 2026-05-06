@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Zap, ArrowUpRight, Heart } from "lucide-react";
+import { Code, User, Hash, Mail, Zap, ArrowUpRight, Heart } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -26,9 +26,9 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { Icon: Github, href: "https://github.com", label: "GitHub" },
-  { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { Icon: Code, href: "https://github.com", label: "GitHub" },
+  { Icon: User, href: "https://linkedin.com", label: "LinkedIn" },
+  { Icon: Hash, href: "https://twitter.com", label: "Twitter" },
   { Icon: Mail, href: "mailto:contact@sonnybernard.com", label: "Email" },
 ];
 
